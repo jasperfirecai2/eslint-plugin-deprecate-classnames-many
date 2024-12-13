@@ -12,7 +12,7 @@ const ruleTester = new RuleTester({
     },
 });
 
-ruleTester.run('deprecate-classnames/classnames', rule, {
+ruleTester.run('deprecate-classnames-many/classnames', rule, {
     valid: [
         {
             code: '<div className="valid-class" />',

@@ -65,7 +65,7 @@ Given the following JSX code:
 ```js
 {
     "rules": {
-        "deprecate-classnames/classnames": ["error",{
+        "deprecate-classnames-many/classnames": ["error",{
             "disAllow": [
                 {"name": "test-classname", "use": "new-classname"}
             ]
@@ -79,7 +79,7 @@ Given the following JSX code:
 ```js
 {
     "rules": {
-        "deprecate-classnames/classnames": ["error", {
+        "deprecate-classnames-many/classnames": ["error", {
             "disAllow": [
                 {"names": ["test-classname", "test-classname-2"], "use": "new-classname"}
             ]
@@ -93,7 +93,7 @@ Given the following JSX code:
 ```js
 {
     "rules": {
-        "deprecate-classnames/classnames": ["error", {
+        "deprecate-classnames-many/classnames": ["error", {
             "disAllow": [
                 {"nameRegExp": "^test-", "use": "new-classname"}
             ]
@@ -107,7 +107,7 @@ Given the following JSX code:
 ```js
 {
     "rules": {
-        "deprecate-classnames/classnames": ["error", {
+        "deprecate-classnames-many/classnames": ["error", {
             "disAllow": [
                 {"nameRegExp": "^test-foo-", "use": "new-foo-"}
                 {"nameRegExp": "^test-bar-", "use": "new-bar-"}
@@ -136,7 +136,7 @@ Given the following JSX code:
 ```json
 {
     "rules": {
-        "deprecate-classnames/classes": ["error",
+        "deprecate-classnames-many/classes": ["error",
             {"name": "test-classname", "use": "new-classname"}
         ]
     }
@@ -148,7 +148,7 @@ Given the following JSX code:
 ```json
 {
     "rules": {
-        "deprecate-classnames/classes": ["error",
+        "deprecate-classnames-many/classes": ["error",
             {"names": ["test-classname", "test-classname-2"], "use": "new-classname"}
         ]
     }
@@ -160,7 +160,7 @@ Given the following JSX code:
 ```json
 {
     "rules": {
-        "deprecate-classnames/classes": ["error",
+        "deprecate-classnames-many/classes": ["error",
             {"nameRegExp": "^test-", "use": "new-classname"}
         ]
     }
