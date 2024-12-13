@@ -15,7 +15,12 @@
     "eslint",
     "deprecation",
     "deprecate function",
-    "classnames"
+    "classnames",
+    "plugin",
+    "react",
+    "classname",
+    "css",
+    "eslint-plugin"
   ],
   "repository": {
     "type": "git",
