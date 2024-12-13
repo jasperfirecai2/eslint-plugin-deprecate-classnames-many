@@ -1,7 +1,7 @@
 {
-  "name": "eslint-plugin-deprecate-classnames",
+  "name": "eslint-plugin-deprecate-classnames-many",
   "version": "1.0.0",
-  "description": "An ESLint plugin with rules reporting usage of deprecated css classes",
+  "description": "An ESLint plugin with rules reporting usage of deprecated css classes, and allows multiple rules",
   "main": "dist/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register --recursive tests/**/*.js",
@@ -14,18 +14,19 @@
   "keywords": [
     "eslint",
     "deprecation",
-    "deprecate function"
+    "deprecate function",
+    "classnames"
   ],
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:juanpinheiro/eslint-plugin-deprecate-classnames.git"
+    "url": "git+git@github.com:jasperfirecai2/eslint-plugin-deprecate-classnames-many.git"
   },
-  "author": "",
+  "author": "jasperfirecai2",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/juanpinheiro/eslint-plugin-deprecate-classnames/issues"
+    "url": "https://github.com/jasperfirecai2/eslint-plugin-deprecate-classnames-many/issues"
   },
-  "homepage": "https://github.com/juanpinheiro/eslint-plugin-deprecate-classnames#readme",
+  "homepage": "https://github.com/jasperfirecai2/eslint-plugin-deprecate-classnames-many/blob/main/README.md",
   "peerDependencies": {
     "eslint": ">=2.x"
   },
