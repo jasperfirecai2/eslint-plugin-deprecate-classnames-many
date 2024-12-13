@@ -23,7 +23,7 @@ npm install eslint-plugin-deprecate-classnames-many --save-dev
 
 Add deprecate-classnames to the plugins section of your .eslintrc configuration file. You can omit the eslint-plugin- prefix:
 
-```js
+```json
 {
     "plugins": [
         "deprecate-classnames-many"
@@ -62,7 +62,7 @@ Given the following JSX code:
 
 ### Specific classnames
 
-```js
+```json
 {
     "rules": {
         "deprecate-classnames-many/classnames": ["error",{
@@ -76,7 +76,7 @@ Given the following JSX code:
 
 ### Multiple classnames
 
-```js
+```json
 {
     "rules": {
         "deprecate-classnames-many/classnames": ["error", {
@@ -90,7 +90,7 @@ Given the following JSX code:
 
 ### Regular expression for classnames
 
-```js
+```json
 {
     "rules": {
         "deprecate-classnames-many/classnames": ["error", {
@@ -104,7 +104,7 @@ Given the following JSX code:
 
 ### Multiple rules
 
-```js
+```json
 {
     "rules": {
         "deprecate-classnames-many/classnames": ["error", {
