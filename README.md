@@ -1,4 +1,7 @@
-# eslint-plugin-deprecate-classnames-many
+# !!This fork is now obsolete!!
+**as of version 1.1 of [eslint-plugin-deprecate-classnames](https://github.com/juanpinheiro/eslint-plugin-deprecate-classnames) , multiple rules are supported out of the box. this fork adds no further features and has not updated the dependencies, unlike the source. please install the source version instead.**
+
+## eslint-plugin-deprecate-classnames-many
 
 [![NPM version](http://img.shields.io/npm/v/eslint-plugin-deprecate-classnames-many.svg)](https://www.npmjs.com/package/eslint-plugin-deprecate-classnames-many)
 ![downloads](https://img.shields.io/npm/dm/eslint-plugin-deprecate-classnames-many.svg)
@@ -175,4 +178,4 @@ For more information, visit the [npm package page](https://www.npmjs.com/package
 
 ## Credits
 
-This fork is an extension of [eslint-plugin-deprecate-classnames](https://github.com/juanpinheiro/eslint-plugin-deprecate-classnames). The package ended up not proving very helpful for its intended purpose as it only allowed a single option.
+This fork is an extension of [eslint-plugin-deprecate-classnames](https://github.com/juanpinheiro/eslint-plugin-deprecate-classnames). Which at the time of making this, did not include support for multiple rules.
