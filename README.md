@@ -1,4 +1,5 @@
 # !!This fork is now obsolete!!
+
 **as of version 1.1 of [eslint-plugin-deprecate-classnames](https://github.com/juanpinheiro/eslint-plugin-deprecate-classnames) , multiple rules are supported out of the box. this fork adds no further features and has not updated the dependencies, unlike the source. please install the source version instead.**
 
 ## eslint-plugin-deprecate-classnames-many
