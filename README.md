@@ -2,6 +2,31 @@
 
 **as of version 1.1 of [eslint-plugin-deprecate-classnames](https://github.com/juanpinheiro/eslint-plugin-deprecate-classnames) , multiple rules are supported out of the box. this fork adds no further features and has not updated the dependencies, unlike the source. please install the source version instead.**
 
+## How to migrate
+
+1. Install `eslint-plugin-deprecate-classnames` version 1.1.0 or newer
+2. Rename all instances of `deprecate-classnames-many` to `deprecate-classnames` in your eslint config
+3. Update your rules like the example below
+
+```diff
+-    "deprecate-classnames-many/classnames": [
++    "deprecate-classnames/classnames": [
+        "error", 
+-        {
+-            "disAllow": [
+                {"nameRegExp": "^test-foo-", "use": "new-foo-"}
+                {"nameRegExp": "^test-bar-", "use": "new-bar-"}
+-            ]
+-        }
+    ]
+=>
+    "deprecate-classnames/classnames": [
+        "error",
+        {"nameRegExp": "^test-foo-", "use": "new-foo-"}
+        {"nameRegExp": "^test-bar-", "use": "new-bar-"}
+    ]
+```
+
 ## eslint-plugin-deprecate-classnames-many
 
 [![NPM version](http://img.shields.io/npm/v/eslint-plugin-deprecate-classnames-many.svg)](https://www.npmjs.com/package/eslint-plugin-deprecate-classnames-many)
